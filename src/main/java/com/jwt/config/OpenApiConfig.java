@@ -15,7 +15,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
                 contact = @Contact(
                         name = "Balakrishna Jonnadula",
                         email = "myself.jbk@gmail.com",
-                        url="https://balakrishna-jonnadula.web.app"
+                        url = "https://balakrishna-jonnadula.web.app"
                 ),
                 description = "OpenApi Documentation for spring security",
                 title = "OpenApi Specification - Balakrishna",
@@ -27,17 +27,19 @@ import io.swagger.v3.oas.annotations.servers.Server;
                 termsOfService = "Terms of service"
 
 
-        ),
-        servers ={
-                @Server(
-                        description = "Local dev",
-                        url = "http://localhost:8080/"
-                ),
-                @Server(
-                        description = "Local dev",
-                        url = "http://localhost:8080/"
-                )
-        },
+        )
+//        ,
+//        servers ={
+//                @Server(
+//                        description = "Local dev",
+//                        url = "http://localhost:8080/"
+//                ),
+//                @Server(
+//                        description = "Local dev",
+//                        url = "http://localhost:8080/"
+//                )
+//        }
+        ,
         security = {
                 @SecurityRequirement(
                         name = "bearerAuth"
